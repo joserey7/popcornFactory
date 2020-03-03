@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- fonts family-->
+    <string name="light">sans-serif-light</string>
+    <string name="condensed">sans-serif-condensed</string>
+    <string name="thin">sans-serif-thin</string>
+    <string name="medium">sans-serif-medium</string>
+    <string name="regular">sans-serif</string>
+
+
+    <string name="app_name">PopcornFactory</string>
+    <string name="movies">MOVIES</string>
+    <string name="series">SERIES</string>
+    <string name="getMeIn">Get me in!</string>
+    <string name="menuDescription">Welcome to Popcorn Factory, home of the best series and movies. Just lay down, make some popcorn and enjoy!</string>
+
+
+    <!-- titles -->
+    <string name="drhouse">Dr. House</string>
+    <string name="smallville">Smallville</string>
+
+
+</resources>

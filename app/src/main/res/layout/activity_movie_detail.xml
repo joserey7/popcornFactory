@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetail"
+    android:orientation="vertical"
+    android:background="@color/grisOscuro">
+
+    <ImageView
+        android:id="@+id/movie_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:columnCount="2"
+        android:paddingHorizontal="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/title"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/movie_title_detail"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="@color/yellow"
+            android:layout_marginTop="20dp"
+            android:layout_columnWeight="1"
+            />
+
+    </GridLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:fontFamily="@string/medium"
+        android:textColor="@color/letraWhite"
+        android:textSize="@dimen/regText"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        android:id="@+id/movie_summary"/>
+</LinearLayout>

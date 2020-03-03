@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="regText">18sp</dimen>
+    <dimen name="movieText">15sp</dimen>
+    <dimen name="buttonText">20sp</dimen>
+    <dimen name="title">20sp</dimen>
+</resources>
